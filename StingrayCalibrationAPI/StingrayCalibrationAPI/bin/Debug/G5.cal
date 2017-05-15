@@ -1,0 +1,67 @@
+[CaliParams]
+;Stingray LT calibration Model£¬for G5
+PSd2_Ppower= 24
+SampleCount=10
+SF = 38
+AF = 0
+Ravg =1
+Notch =1
+TargetADThresJump =60
+TargetADThresStab =30
+TargetADDepthInit  =12
+TargetADdepthStep =1
+AmbG =10000
+AmbOfs =0
+TgtRangeF=473,3038
+AmbRangeF=-4,185
+DispRangeF=482,3002
+TP1Range=50,60
+TP2Range=50,60
+TP3Range=50,60
+; Spectral lines wavelength (micron)
+LinWave=5,5
+; Corresponding lines amplitude(1000*um5*volt)
+LinAmpl=2.68,2.68
+; Cal emissivity
+CalEmiss=1
+; F	 Linearity Error Margins
+MargF=0.2
+; %	
+MargP=0.15
+; F	Center of Percent Error Margin
+MargCenterF=90
+; Error scale derivative
+MargSclDeriv=0.05
+; Determines energy lookup jump size
+JumpFactor=6
+; Negative error feedback amplifier
+SpanErrFudge=2
+CurveFitAdj1=100
+CurveFitAdj4=16
+Alpha=-50
+Alpha_Low=-25
+TableNumber=28
+; TC terminal temperature compensation factor ( TtcaComp = Ttca + (Twip - Ttca) * TCACompFactor) 
+TCACompFactor=0.5
+;		min		max		goal
+; Thermistor temperature drift limits (F)
+TaDriftF=-1.5,1.5,0
+; WIP container temperature drift limits (F)
+TwipDriftF=-3,3,0
+; Spectral multiplier
+SpecScale1=0.6,1.5,1
+; Responsivity multiplier
+RespScale1=0.6,3,1
+; Spectral multiplier
+SpecScale2=0.6,1.5,1
+; Responsivity multiplier
+RespScale2=0.6,3,1
+; Curve fit standard deviation (sigma)
+CurveFitSig=0,10,0
+; Linearity Error boundaries multiplier
+MargScale=0.1,2,1
+;Na	Ntca	Nd2_1	Nd2_2	Nd2_3	NFTC1Low	NFTC1High	NFTC2Low	NFTC2High	NIoutLow	NIoutHigh 	NVoutLow	NVoutHigh	NtcLow	   NtcHigh
+Nmin=22,22,8000,10000,30000,200,9500,200,9500,3500,19000,200,9500,3,500
+Nmax=27,27,14000,16000,60000,400,9900,400,9900,4500,21000,400,9900,10,700
+
+

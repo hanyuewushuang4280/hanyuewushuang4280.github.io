@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0551196A-1165-40A5-9AE8-53CBCB6553A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StingrayCalibrationAPI</RootNamespace>
+    <AssemblyName>StingrayCalibrationAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CaliSysBase">
+      <HintPath>bin\Debug\CaliSysBase.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliSysControlLib">
+      <HintPath>bin\Debug\CaliSysControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliSysData">
+      <HintPath>bin\Debug\CaliSysData.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliSysDataEntites">
+      <HintPath>bin\Debug\CaliSysDataEntites.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliSysIO">
+      <HintPath>bin\Debug\CaliSysIO.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliSysLib.SysInfo">
+      <HintPath>bin\Debug\CaliSysLib.SysInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliSysLib.Utility">
+      <HintPath>bin\Debug\CaliSysLib.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Analysis.Enterprise, Version=13.0.45.242, Culture=neutral, PublicKeyToken=4febd62461bf11a4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\National Instruments\MeasurementStudioVS2012\DotNET\Assemblies\Current\NationalInstruments.Analysis.Enterprise.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Common, Version=13.0.40.188, Culture=neutral, PublicKeyToken=dc6ad606294fc298, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\National Instruments\MeasurementStudioVS2012\DotNET\Assemblies\Current\NationalInstruments.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Raylib.Calibrations, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>from Alex\Raylib.Calibrations.dll</HintPath>
+    </Reference>
+    <Reference Include="Raylib.IO">
+      <HintPath>bin\Debug\Raylib.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Raylib.IO.Serial.SuperSerial">
+      <HintPath>bin\Debug\Raylib.IO.Serial.SuperSerial.dll</HintPath>
+    </Reference>
+    <Reference Include="Raytek.AsciiTalkLib">
+      <HintPath>bin\Debug\Raytek.AsciiTalkLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SerialPortComm">
+      <HintPath>bin\Debug\SerialPortComm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaliCmd.cs" />
+    <Compile Include="CaliParams.cs" />
+    <Compile Include="CALMATHLIB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StingrayAsciiProtocol.cs" />
+    <Compile Include="StringrayCalibration.cs" />
+    <Compile Include="StringraySerialPort.cs" />
+    <Compile Include="Strings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

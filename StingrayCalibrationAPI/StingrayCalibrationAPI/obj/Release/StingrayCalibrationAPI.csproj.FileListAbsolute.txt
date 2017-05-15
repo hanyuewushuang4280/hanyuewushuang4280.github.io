@@ -1,0 +1,23 @@
+D:\James Transfer\StingrayCalibrationLibAPI\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\obj\Release\StingrayCalibrationAPI.dll.licenses
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\obj\Release\StingrayCalibrationAPI.dll.licenses
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\StingrayCalibrationAPI.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\StingrayCalibrationAPI.pdb
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\CaliSysBase.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\CaliSysControlLib.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\CaliSysData.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\CaliSysDataEntites.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\CaliSysIO.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\CaliSysLib.SysInfo.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\CaliSysLib.Utility.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\Raylib.Calibrations.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\Raylib.IO.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\Raylib.IO.Serial.SuperSerial.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\Raytek.AsciiTalkLib.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\SerialPortComm.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\NationalInstruments.Common.Native.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\Raylib.Calibrations.pdb
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\Raylib.IO.Serial.SuperSerial.pdb
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\bin\Release\Raytek.AsciiTalkLib.pdb
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\obj\Release\StingrayCalibrationAPI.dll
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\obj\Release\StingrayCalibrationAPI.pdb
+D:\A1-Stringray\StingrayCalibrationLibAPI\StingrayCalibrationAPI\StingrayCalibrationAPI\obj\Release\StingrayCalibrationAPI.csprojResolveAssemblyReference.cache
